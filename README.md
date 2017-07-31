@@ -10,9 +10,10 @@ At this time, they have only been tested on Windows 7 64bit and Windows 10 64bit
 and may work properly only using Powershell version 4.0 or above. 
 
 Please feel free to get in touch if you have any comments, requests etc...
- -------------------------------------------------------------------------------------------------------------------------------
 
--- Utility no. 1: "Cull-CR2Files.ps1" --
+Utility no. 1: "Cull-CR2Files.ps1"
+-------------------------------------------------------------------------------------------------------------------------------
+
 
 The motivation behind this script, derives from the way the photographer preforms her initial filtering after taking numerous photograps:
 
