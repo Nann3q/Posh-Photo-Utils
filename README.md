@@ -30,8 +30,25 @@ Next, the user can go over the list and either approve / not approve each file m
 
 Finally, the script will delete all files "approved for deletion" by the user.
 
-![alt tag](https://github.com/Nann3q/Posh-Photo-Utils/blob/master/Cull-CR2Files/ScreenShots/DialogBox.PNG "Screenshot #1: Windows Folder Browser Dialog")
+![alt tag](/../master/Cull-CR2Files/ScreenShots/DialogBox.PNG?raw=true  "Screenshot #1: Windows Folder Browser Dialog")
+
+![alt tag](/../master/Cull-CR2Files/ScreenShots/ApproveList.PNG?raw=true  "Screenshot #2: list of files pending approval")
 
 
-![alt tag](https://github.com/Nann3q/Posh-Photo-Utils/blob/master/Cull-CR2Files/ScreenShots/ApproveList.PNG "Screenshot #2: list of files pending approval")
+Utility no. 2: "Copy-ToBestFolder.ps1"
+-------------------------------------------------------------------------------------------------------------------------------
 
+The motivation behind this script, is to help the process of "final" filtering - where the absolute best photos should end up residing in their own folder, seperately from all the others (which are usually kept asied anyway in case of later interest).
+
+This script looks for a .txt list of file names in the selected folder, creates a folder named "Best" and copies all corrsponding CR2 files to the "Best" folder.
+
+* User should supply a list of file names to copy in a .txt file named "Best.txt":
+  - Naming convention should just be the file's unique ID, so for example a file named "IMG_0181.CR2" should only be listed as "181".
+   - The "Best.txt" file should reside in the same directory as the "source" folder (Where files are to be copied from)
+   - "Best" folder will be created inside the selected "source" folder, and the listed files will be copied to it.
+
+* The copy is performed using "RoboCopy.exe", with a (currently hardcoded) default of 16 multiple threads, to allow for a relatively fast parallel copy without heavily punishing the computer's resources.
+
+![alt tag](/../master/Copy-ToBestFolder/ScreenShots/Dialog.PNG?raw=true  "Screenshot #1: Windows Folder Browser Dialog")
+
+![alt tag](/../master/Copy-ToBestFolder/ScreenShots/CopySummary.PNG?raw=true "Screenshot #2: summary of copied files")
