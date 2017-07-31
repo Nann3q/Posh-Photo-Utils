@@ -2,7 +2,7 @@
  -------------------------------------------------------------------------------------------------------------------------------
 This on-going project consists of a set of bespoke utilities I've created for a photographer to  improve her file management and processing workflows.
 
-Future utilities in this area will be added to this project, as well as improvements / fixes to existing ones.
+Future utilities in this context will be added to this project, as well as improvements / fixes to existing ones.
 
 These utilities are open for use to everyone - but please note that you will be using them under your sole responsibility and at your own discretion.
 
