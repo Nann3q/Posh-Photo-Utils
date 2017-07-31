@@ -28,3 +28,9 @@ Any CR2 files which have no matching name to a JPG file in this directory enters
 Next, the user can go over the list and either approve / not approve each file manually, or the whole list altogether.
 
 Finally, the script will delete all files "approved for deletion" by the user.
+
+![alt tag](https://github.com/Nann3q/Posh-Photo-Utils/blob/master/Cull-CR2Files/ScreenShots/DialogBox.PNG "Screenshot #1: Windows Folder Browser Dialog")
+
+
+![alt tag](https://github.com/Nann3q/Posh-Photo-Utils/blob/master/Cull-CR2Files/ScreenShots/ApproveList.PNG "Screenshot #2: list of files pending approval")
+
