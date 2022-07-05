@@ -15,7 +15,7 @@ Utility no. 1: "Cull-CR2Files.ps1"
 -------------------------------------------------------------------------------------------------------------------------------
 
 
-The motivation behind this script, derives from the way the photographer preforms her initial filtering after taking numerous photograps:
+The motivation behind this script, derives from the way the photographer preforms her initial filtering after taking numerous photographs:
 
 Each photograph taken is saved (originally to the Camera's SD Card, later on - to local disk for processing) in both it's full sized "RAW" file (.CR2), and a compressed .JPG File.
 
