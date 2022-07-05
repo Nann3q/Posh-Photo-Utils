@@ -58,7 +58,7 @@ foreach ($Record in $RawFilesList){
                     # Use Regex to get only numerical values from list:
                     $RawFileName = $Record -replace $pattern, ''
                     
-                    # Append "IMG_000" (according to name length" to each record, and .CR2 Extension
+                    # Append "IMG_000" (according to name length) to each record, and .CR2 Extension
                     if ($RawFileName.Length -le $MaxRecordLegnth){
                             $ValidFileNames += "IMG_" +  ($ZeroString * ($MaxRecordLegnth - $RawFileName.length)) + $RawFileName + $FileNameExtension
                             
