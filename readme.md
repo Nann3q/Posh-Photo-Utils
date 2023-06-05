@@ -38,7 +38,7 @@ Finally, the script will delete all files "approved for deletion" by the user.
 Utility no. 2: "Copy-ToBestFolder.ps1"
 -------------------------------------------------------------------------------------------------------------------------------
 
-The motivation behind this script, is to help the process of "final" filtering - where the absolute best photos should end up residing in their own folder, seperately from all the others (which are usually kept asied anyway in case of later interest).
+The motivation behind this script, is to help the process of "final" filtering - where the absolute best photos should end up residing in their own folder, seperately from all the others (which are usually kept aside anyway in case of later interest).
 
 This script looks for a .txt list of file names in the selected folder, creates a folder named "Best" and copies all corrsponding CR2 files to the "Best" folder.
 
